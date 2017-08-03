@@ -16,6 +16,7 @@ body {
 }
 a{
 	color: #999999;
+	text-decoration: none;
 }
 img {
     display: block;
@@ -39,32 +40,29 @@ nav{
 	position: absolute;
 	right: 10%;
 	padding-top: 32px;
+	word-spacing: 30px;
 }
 
 .main_content {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 960px;
+	height: 100%;
+
 
 }
 .content {
-	width: 650px;
-	float: left;
 	background-color: white;
 	border: 2px solid #DDD;
-	padding: 30px;
-	position: absolute;
-	top: 150px;
-	left: 10%;
-	margin-bottom: 350px;
+	display: inline-block;
+	width: 100%;
 }
 
 
 .content_header{
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	width: 620px;
 	padding-left: 20px;
 	font-size: 30px;
+	padding-top: 20px;
 }
 
 
@@ -72,25 +70,15 @@ nav{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-size: 25px;
-	width: 270px;
-	padding-left:0px;
-	float: right;
-	position: absolute;
-	right: 10%;
-	top: 150px;
-
+	text-align: center;
 	background-color: white;
 	border: 2px solid #DDDDDD;
-	padding-bottom: 20px;
-	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	padding-top: 20px;
 
-    display:inline-block;
-    
-    padding:20px;
-    
-    border:1px solid #CCC
-  
 }
+
 
 
 #social_header{
@@ -98,14 +86,14 @@ nav{
 	text-align: center;
 }
 
-.gey_div{
+.grey_div{
 	background-color: #DDD;
 	height: 2.5px;
 	margin-bottom: 20px;
 }
 
 #small_grey{
-	width: 223px;
+	width: 90%;
 	height: 1px;
 	background-color: #DDD;
 	margin-bottom: 20px;
@@ -115,14 +103,21 @@ nav{
 
 
 
-
+.inner{
+	padding: 35px;
+}
 
 #p_picture{
-	transform: rotate(90deg);
 	float: left;
-    width:150px;
-    margin: 20px;
 }
+#p_pic{
+	transform: rotate(90deg);
+	width:300px;
+	margin: 20px;
+	padding:15px;
+
+}
+
 
 ._email{
 	height: 25px;
@@ -157,66 +152,66 @@ textarea{
 }
 
 #dx{
-	width: 280px;
+	width: 270px;
 
 }
 
 #opic{
 
 	position: relative;
-	width:300px;
+	width:100px;
 	float: left;
 	margin: 20px;
 }
 
 #oregon{
-   position: absolute;
-   bottom:20px;
-   width:100%;
+   position: relative;
+   bottom: 80px;
    height:30px;
    color: white;
    background-color: #4aaaa5;
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    text-align: center;
-   padding-top:22px; 
+   padding-top:22px;
+	width: 270px;
+	margin: auto;
   }
 
 
 
- #pdx{
-  	position: relative;
-  	float:left;
-  	margin: 20px; 
-  }
+ #pdx {
+	 position: relative;
+	 float: left;
+	 margin: 0 auto;
+	 width: 50%;
+ }
+
 
  
 
   #git{
-  	float: left;
-    display: block;
-    padding: 10px;
+
+    display: inline-block;
+    padding: 5px;
   
   }
 
   #link{
-  	float: left;
-  	display: block;
-  	padding: 10px;
+  	display: inline-block;
+  	padding: 5px;
     
   }
 
   #stack{
-  	float: left;
-  	display: block;
-  	padding: 10px;
+  	display: inline-block;
+  	padding: 5px;
    
   }
 
   footer {
 	width: 100%;
-	position: fixed;
+	position: relative;
 	bottom: 0px;
-	padding: 1rem;
 	text-align: center;
 	color: white;
 	background-color: #666;
@@ -226,5 +221,6 @@ textarea{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 12px;
 	clear: both;
-	margin-top: 250px;
+	  margin-top: 75px;
+
 }
